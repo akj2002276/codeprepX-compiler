@@ -1,0 +1,117 @@
+.auth-container {
+  height: 100vh;
+  background: radial-gradient(circle at top left, #0a0a0a, #000);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth-logo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00b3ff; /* Blue for CodePrep */
+  text-shadow: none; /* No glow */
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.x-3d {
+  display: inline-block;
+  color: silver;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow:
+    1px 1px 0 #999,
+    2px 2px 0 #888,
+    3px 3px 0 #777,
+    4px 4px 0 #666,
+    0 0 5px #fff,
+    0 0 10px #fff;
+  transform: rotateY(10deg) rotateX(5deg);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+.x-3d:hover {
+  transform: rotateY(0deg) rotateX(0deg) scale(1.1);
+  text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 40px #fff;
+}
+
+.auth-box {
+  background: rgba(20, 20, 30, 0.9);
+  border: 1px solid #222;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 224, 255, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.auth-box:hover {
+  box-shadow: 0 0 40px rgba(0, 224, 255, 0.6);
+}
+
+.auth-box h2 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin: 0.6rem 0;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.auth-form input:focus {
+  border: 1px solid #00e0ff;
+  box-shadow: 0 0 10px #00e0ff;
+}
+
+.btn-auth {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #00e0ff, #007bff);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.btn-auth:hover {
+  background: linear-gradient(90deg, #007bff, #00e0ff);
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.7);
+}
+
+.redirect-text {
+  margin-top: 1rem;
+  color: #aaa;
+}
+
+.redirect-text a {
+  color: #00e0ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.redirect-text a:hover {
+  color: #ff0077;
+}
