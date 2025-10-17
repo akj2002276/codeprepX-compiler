@@ -147,7 +147,9 @@ function Landing() {
           </p>
 
           <button className="btn-coding mt-4">
-            <span className="typing-text">Try Now ▶</span>
+            <a href="dashboard">
+              <span className="typing-text">Try Now ▶</span>
+            </a>
           </button>
         </section>
 
